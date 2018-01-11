@@ -1,0 +1,90 @@
+
+body{
+	font: "helvetica";
+}
+
+nav ul {
+	position: relative;
+	list-style: none;
+	display: inline;
+}
+
+header{
+	width:100%;
+	height: 100px;
+	background-color: #0E3759;
+	color: white;
+  	font-family: "Gill Sans";
+  	font-weight: 100;
+  	padding: 10px 10px;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+nav{
+	clear: both;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.left{
+	float: left;
+	text-align: left;
+	
+}
+.right {
+	float: right;
+	text-align: right;
+	padding-top: 26px;
+}
+
+ .portada-ppal {
+ 	height: 380px;
+ 	background-image:url("../img/portada.jpg");
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+  	border-radius: 0px;
+}
+.intro-cita{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	font-weight: 100;
+	font-size: x-large;
+}
+
+.convenios-img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    
+}
+
+h1{
+	text-align: center;
+	color: #0f3958;
+	font-family: Gill Sans;
+	padding-top: 50px;
+}
+
+h2{
+text-align: center;
+    color: #767778
+}
+
+footer{
+	width:100%;
+	height: 380px;
+	background-color: #676f77;
+	color: white;
+  	font-family: "Gill Sans";
+  	padding: 80px 100px;
+	list-style: none;
+}
+
+address{
+	font-size: small;
+	text-align: center;
+}
