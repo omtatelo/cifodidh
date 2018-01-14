@@ -44,7 +44,7 @@ nav ul li{
 }
 
 .portada-ppal {
- 	height: 380px;
+ 	height: 600px;
  	background-image:url("../img/portada.jpg");
  	background-repeat: no-repeat;
   	background-size: cover;
@@ -60,7 +60,7 @@ nav ul li{
 }
 
 .convenios-img {
-    opacity: 0.5;
+    opacity: 0.3;
     filter: alpha(opacity=30); /* For IE8 and earlier */
 }
 
@@ -76,6 +76,10 @@ h2{
     color: #767778
 }
 
+.img-center{
+	text-align: center;
+}
+
 footer{
 	width:100%;
 	background-color: #676f77;
@@ -87,15 +91,17 @@ footer{
 
 address{
 	font-size: small;
-	text-align: center;
 }
 
 .end{
 	text-align: center;
-	/*background-color: #0E3759;*/
 }
 
 p.fin {
 	padding-bottom: 0;
 	clear: both;
+}
+
+.dir{
+	
 }
