@@ -44,12 +44,20 @@ nav ul li{
 }
 
 .portada-ppal {
- 	height: 600px;
+ 	height: 400px;
  	background-image:url("../img/portada.jpg");
  	background-repeat: no-repeat;
   	background-size: cover;
   	border-radius: 0px;
+  	position: relative;
+	font-weight: 600;
+	font-size: 30px;
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+	padding-top: 10%;
+
 }
+
+
 .intro-cita{
 	text-align: center;
 	padding-top: 50px;
@@ -102,6 +110,50 @@ p.fin {
 	clear: both;
 }
 
-.dir{
-	
+.colaboradores{
+	text-align: center;
+}
+
+.feed-fotos{
+	text-align: center;
+	padding: 20px;
+	background-color: #E7EDF1;
+	margin-bottom: 100px;
+}
+
+.centrar-caja{
+    margin: auto;
+}
+
+.thumbnail img{
+	width: 100%;
+}
+
+.fotos-perfil img{
+	border-radius: 50%;
+	width: 30%;
+}
+
+.circulos-caja{
+	text-align: center;
+	padding: 20px;
+	background-color: #white;
+	margin-bottom: 100px;
+	border-color: #5283A3;
+	border: 2px;
+}
+.feed-prev-title{
+	background-color: #5283A3;
+	color: #D4DBDB;
+	text-align: left;
+	padding-left: 6px;
+	font-weight: 200;
+	font-size: large;
+}
+
+.feed-prev-text{
+	padding-top: 10px;
+	text-align: left;
+	font-size: small;
+
 }
