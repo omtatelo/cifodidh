@@ -1,7 +1,5 @@
-@import '/fonts/fonts.css';
-
 body{
-	font: "helvetica";
+	font-family: 'Open-sans', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -17,7 +15,7 @@ header{
 	height: 100px;
 	background-color: #0E3759;
 	color: white;
-  	font-family: "Gill Sans";
+  	font-family: "Monserrat", sans-serif;
   	font-weight: 100;
   	padding: 10px 10px;
 	list-style: none;
@@ -58,14 +56,12 @@ nav ul li{
 
 }
 
-
 .intro-cita{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 100px;
 	font-weight: 100;
 	font-size: x-large;
-
 }
 
 .convenios-img {
@@ -93,7 +89,7 @@ footer{
 	width:100%;
 	background-color: #676f77;
 	color: white;
-  	font-family: "Gill Sans";
+  	font-family: "Monserrat", sans-serif;
 	list-style: none;
 	padding: 60px 40px 0px 40px;
 }
@@ -156,5 +152,9 @@ p.fin {
 	padding-top: 10px;
 	text-align: left;
 	font-size: small;
+}
 
+.titulo-cifodidh p{
+	color: #ffffff; 
+	text-align: center;
 }
