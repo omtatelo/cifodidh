@@ -158,3 +158,11 @@ p.fin {
 	color: #ffffff; 
 	text-align: center;
 }
+
+.contacto-form{
+	display: inline;
+}
+
+.contacto-cab{
+	padding-top: 0;
+}
