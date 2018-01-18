@@ -166,3 +166,15 @@ p.fin {
 .contacto-cab{
 	padding-top: 0;
 }
+
+#contacto-form .clearfix{
+	padding-bottom: 30px;
+}
+
+#contacto-form input, #contacto-form textarea{
+	margin-bottom: 10px;
+}
+
+#contacto-form textarea{
+	height: 150px;
+}
