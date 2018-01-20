@@ -77,6 +77,7 @@ h2{
 }
 
 footer{
+	text-align: center;
 	width:100%;
 	background-color: #676f77;
 	color: white;
@@ -172,8 +173,4 @@ p.fin {
 
 div#menu-responsivo{
 	z-index: 10;
-}
-
-.pull-right{
-	float: right !important;
 }
